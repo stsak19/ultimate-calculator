@@ -1,4 +1,5 @@
-const VERSION='0.4.129';
+// Version: Leonidas's base version + "-sN" for Stathis's own changes. Bump N by 1 on every change (s4, s5, ...).
+const VERSION='0.4.126-s3';
 const NUMBER_LOCALE='de-DE';
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 // localStorage can throw (blocked storage, private mode, quota full). Never let that break the app.
